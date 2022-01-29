@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#logo img{
+    height: 77px;
+    width: 385px;
+    padding: 5px;
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+}
+#navbar{
+    display: flex;
+    justify-content:space-around;
+    /* position: -webkit-sticky; */
+    top: 0px;
+	position: sticky;
+	background-color: rgb(36, 28, 78);
+    /* background-color: rgb(233, 103, 103); */
+
+    
+}
+#navbar ul{
+    display: flex;
+    /* position: -webkit-sticky;
+	position: sticky; */
+   
+    
+}
+#navbar ul li{
+    list-style: none;
+    padding: 28px;
+
+
+    
+  
+    font-size: 18px;
+    font-family: 'Hind Siliguri';
+    font-weight: bold;
+    
+    text-decoration: none;
+   
+}
+#navbar ul li a{
+    
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+.item { 
+transition: all .2s ease-in-out; 
+}
+
+.item:hover { 
+transform: scale(1.1); 
+}

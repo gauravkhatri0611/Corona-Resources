@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+#sidenav{
+    
+    display: flex;
+    flex-direction: column;  
+   
+  top: 0;
+  background-color: rgb(36, 28, 78);
+  margin-top: 87px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: calc(100% - 9%);
+  transition: 0.5s;
+  transition-property: left;
+ 
+    
+}
+
+#admin{
+    margin-top: 30px;
+   
+    padding: 30px;
+    color: rgb(117, 115, 115);
+    font-size: 28px;
+    font-family: 'Hind Siliguri';
+}
+#sidenav ul li a{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind Siliguri';
+}
+
+#sidenav ul li{
+    list-style: none;
+    display: flex;
+
+}
+.table2 { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .table2:hover { 
+    transform: scale(1.1); 
+    }
+    .logout{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind Siliguri';
+   background-color: red;
+    }
+   input[type=submit] {
+       margin: 27px;
+    width: 126px;
+    background-color: orange;
+    height: 40px;
+     transition: all .2s ease-in-out; 
+}
+ input[type=submit]:hover{
+ transform: scale(1.1); 
+ }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .heading{
+    color: rgb(255, 102, 0);
+    margin-top:45px;
+    font-size: 40px;
+    text-align: center;
+}
+.table{
+   
+    border-collapse: collapse;
+    justify-content: center;
+    font-size: 0.9em;
+    margin: auto;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+
+}
+.table tr th{
+    background-color: rgb(248, 150, 37);
+    color: black;
+    font-weight: bold;
+    padding: 12px 15px ;
+}
+.table tr td{
+    padding: 12px 15px ;
+    border-bottom:1px solid #dddddd;
+}
+.table tbody tr:nth-of-type(even){
+    background-color:#dddddd ;
+}
+.table tbody tr:last-of-type{
+    border-bottom:2px solid rgb(248, 150, 37);
+}
+.table tbody tr{
+    font-weight: bold;
+}
+.table tbody tr #approve{
+      height: 45px;
+      transition: all .2s ease-in-out;
+      margin-left:  11px;
+}
+.table tbody tr #approve:hover{
+    transform: scale(1.1); 
+}
+.table tbody tr #delete{
+    height: 35px;
+    transition: all .2s ease-in-out;
+      margin-left: 13px;
+      margin-top:5px;
+}
+.table tbody tr #delete:hover{
+    transform: scale(1.1); 
+}
+.table tbody tr #update{
+    height: 35px;
+    transition: all .2s ease-in-out;
+}
+.table tbody tr #update:hover{
+    transform: scale(1.1); 
+}
+
+.thank{
+	margin:auto;
+	justify-content:center;
+	color:orange;
+	margin-top:400px;
+	margin-left:500px;
+	font-size:40px;
+}
+    

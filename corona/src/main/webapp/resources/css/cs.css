@@ -1,0 +1,276 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:#1e1e30 ;
+}
+
+#logo img{
+    height: 77px;
+    width: 385px;
+    padding: 5px;
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+}
+#navbar{
+    display: flex;
+    justify-content:space-around;
+    /* position: -webkit-sticky; */
+    top: 0px;
+	position: sticky;
+	background-color: rgb(36, 28, 78);
+    /* background-color: rgb(233, 103, 103); */
+
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+#navbar ul{
+    display: flex;
+    /* position: -webkit-sticky;
+	position: sticky; */
+   
+    
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    padding: 28px;
+    font-size: 18px;
+    font-family: 'Hind Siliguri';
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+
+.item{ 
+transition: all .2s ease-in-out; 
+
+}
+
+.item:hover{ 
+transform: scale(1.1); 
+}
+.row{
+    display: flex;
+    font-size: 18px;
+    font-family:Roboto;
+    justify-content:space-around;
+    
+}
+.confirm{
+    color:yellow;
+    
+}
+.active{
+    color:rgb(59, 196, 250);
+}
+.recover{
+    color:rgb(85, 241, 85);
+}
+.death{
+    color:rgb(216, 214, 214);
+}
+#cop{
+    padding: 100px;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+   
+}
+.para{
+    
+     width: 30%;
+    margin: auto;
+    /* padding: 40px; */
+    color: white;
+    font-size: 20px;
+    font-family: 'Hind Siliguri';
+   
+}
+.svgf{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+#mysvgf{
+width:50%;
+}
+.btn {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+ .btn span a{
+    text-decoration: none;
+    color: white;
+}
+  
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.btn:hover span {
+    padding-right: 25px;
+  }
+  
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+   
+    /* display: flex; */
+    /* justify-content:space-around; */
+   
+
+
+.c1,.c2,.c3,.p0,.p1,.p2,.p3,.p4,.p5
+,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14
+,.c15,.c16,.c17,.c18,.c19,.c20,.c21,.c22,.c23{
+    stroke:rgb(112, 51, 255);
+    stroke-width: 1px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 2000;
+}
+.p0{
+    animation: p0 6s ease-in-out;
+}
+.p1{
+    animation: p1 7s ease-in-out;
+}
+.p2{
+    animation: p2 8s ease-in-out;
+}.p3{
+    animation: p3 9s ease-in-out;
+}.p4{
+    animation: p4 10s ease-in-out;
+}.p5{
+    animation: p5 11s ease-in-out;
+}
+.c3{
+    animation: c3 13s ease-in-out;
+}
+.c1{
+    animation: c1 19s ease-in-out;
+}
+.c2{
+    animation: c2 19s ease-in-out;
+}
+
+
+@keyframes p0{
+    0%
+    {
+    stroke-dashoffset:2000;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+    }}
+    @keyframes p1{
+        0%
+        {
+        stroke-dashoffset:2000;
+        }
+        100%
+        {
+            stroke-dashoffset: 0;
+        }}
+        @keyframes p2{
+            0%
+            {
+            stroke-dashoffset:2000;
+            }
+            100%
+            {
+                stroke-dashoffset: 0;
+            }}
+            @keyframes p3{
+                0%
+                {
+                stroke-dashoffset:2000;
+                }
+                100%
+                {
+                    stroke-dashoffset: 0;
+                }}
+                @keyframes p4{
+                    0%
+                    {
+                    stroke-dashoffset:2000;
+                    }
+                    100%
+                    {
+                        stroke-dashoffset: 0;
+                    }}
+                    
+@keyframes p5{
+    0%
+    {
+    stroke-dashoffset:2000;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+    }}
+    @keyframes c3{
+        0%
+        {
+        stroke-dashoffset:2000;
+        }
+        100%
+        {
+            stroke-dashoffset: 0;
+        }}
+        @keyframes c2{
+            0%
+            {
+            stroke-dashoffset:2000;
+            }
+            100%
+            {
+                stroke-dashoffset: 0;
+            }}
+            @keyframes c1{
+                0%
+                {
+                stroke-dashoffset:2000;
+                }
+                100%
+                {
+                    stroke-dashoffset: 0;
+                }}

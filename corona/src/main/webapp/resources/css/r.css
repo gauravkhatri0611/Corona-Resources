@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:#1e1e30 ;
+}
+p{
+	margin:auto;
+	justify-content:center;
+	background-color:orange;
+	display:flex;
+	color:black;
+	width:450px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+.textbox{
+	margin:auto;
+	justify-content:center;
+	display:flex;
+	margin-top:10px;
+	width:450px;
+	height:25px;
+}
+ input[type=submit] {
+    display:inline;
+   
+    width: 126px;
+    background-color: orange;
+    height: 40px;
+     transition: all .2s ease-in-out;
+     align-items: center;
+     margin-left:900px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+ input[type=submit]:hover{
+ transform: scale(1.1); 
+ }
+.error{
+	color:red;
+	 margin-left:900px;
+	font-size: 15px;
+}
+.user_title{
+	color:red;
+}
