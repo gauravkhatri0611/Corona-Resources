@@ -1,4 +1,4 @@
-# coronaresources
+# coronaresources 2020
 This is project based on Spring MVC and jdbc
 In this project i have performed all the crud operations 
 Admin dashboard is also integrated in this and has the authority to approve and decline the resources
